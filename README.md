@@ -1,1 +1,5 @@
 RechtwinkligesDreieck
+
+Uebungsprogramm Dezember 2018
+
+Berechnungen am rechtwinkligen Dreieck
