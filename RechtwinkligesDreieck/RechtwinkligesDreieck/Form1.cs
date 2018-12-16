@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace RechtwinkligesDreieck
 {
-    public partial class Form1 : Form
+    public partial class RechtWDreieck : Form
     {
-        public Form1()
+        public RechtWDreieck()
         {
             InitializeComponent();
         }
+
+       
     }
 }
