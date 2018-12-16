@@ -36,5 +36,24 @@ namespace RechtwinkligesDreieck
             TxtBoxUmfang.Text = dreieck_2.Umfang;
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (TxtBox_a.Text != "" & TxtBox_b.Text != "")
+            {
+                Dreieck dreieck_1 = new Dreieck(TxtBox_a.Text, TxtBox_b.Text);
+                TxtBox_c.Text = dreieck_1.HypothenuseMitPythagoras;
+                TxtBox_alpha.Text = dreieck_1.Alpha;
+                Dreieck dreieck_2 = new Dreieck(TxtBox_a.Text, TxtBox_b.Text, TxtBox_c.Text);
+                TxtBoxUmfang.Text = dreieck_2.Umfang;
+            }
+            else if (TxtBox_a.Text != "" & TxtBox_c.Text != "")
+            {
+
+            }
+            
+
+           
+        }
     }
 }

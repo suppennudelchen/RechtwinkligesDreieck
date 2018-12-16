@@ -32,6 +32,9 @@ namespace RechtwinkligesDreieck
             }
         }
 
+        
+
+
         // Konstruktor mit a, b und c
         public Dreieck(string a, string b, string c)
         {
