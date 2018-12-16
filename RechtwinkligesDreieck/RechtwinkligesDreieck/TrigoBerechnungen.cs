@@ -62,5 +62,13 @@ namespace RechtwinkligesDreieck
         {
             return (seite_a + seite_b + seite_c);
         }
+
+        //Alpha mit ATangens aus a und b
+        public static double Alpha(double seite_a, double seite_b)
+        {
+            double winkelInRadiant = Math.Atan(seite_a / seite_b);
+            double Winkel = winkelInRadiant * 180 / Math.PI;
+            return Winkel;
+        }
     }
 }

@@ -55,6 +55,12 @@ namespace RechtwinkligesDreieck
             get { return PythBerechnung.Seite_C_Pyth(kathete_a, kathete_b).ToString("0.000"); }
         }
 
+        //Eigenschaft Alpha
+        public string Alpha
+        {
+            get { return TrigoBerechnungen.Alpha(kathete_a, kathete_b).ToString("0.000"); }
+        }
+
         //Eigenschaft Umfang
         public string Umfang
         {
