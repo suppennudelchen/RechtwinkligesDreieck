@@ -57,6 +57,10 @@ namespace RechtwinkligesDreieck
             return (90 - alpha);
         }
 
-
+        //Umfang
+        public static double Umfang(double seite_a, double seite_b, double seite_c)
+        {
+            return (seite_a + seite_b + seite_c);
+        }
     }
 }

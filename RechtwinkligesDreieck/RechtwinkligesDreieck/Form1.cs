@@ -17,6 +17,20 @@ namespace RechtwinkligesDreieck
             InitializeComponent();
         }
 
-       
+        //Startwerte in den Feldern im Formular
+        private void Formular_Load(object sender, EventArgs e)
+        {
+            //TxtBox_alpha.Text = "45";
+            //TxtBox_beta.Text = "45";
+            //TxtBox_a.Text = "10";
+            //TxtBox_b.Text = "10";
+            //TxtBox_c.Text = "14.142";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dreieck dreieck_1 = new Dreieck(TxtBox_a.Text, TxtBox_b.Text);
+            TxtBox_c.Text = dreieck_1.HypothenuseMitPythagoras;
+        }
     }
 }
